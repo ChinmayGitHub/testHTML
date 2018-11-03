@@ -1,1 +1,1 @@
-curl -O https://storage.googleapis.com/golang/go1.9.3.linux-amd64.tar.gz
+cloudctl login -a https://mycluster.icp:8443 -c id-mycluster-account -u icpadmin -p passw0rd -n services --skip-ssl-validation
